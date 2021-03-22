@@ -39,4 +39,5 @@ gulp.task("min:css", () => {
 gulp.task("min", gulp.series(["min:js", "min:css"]));
 
 // A 'default' task is required by Gulp v4
+//2222222
 gulp.task("default", gulp.series(["min"]));
